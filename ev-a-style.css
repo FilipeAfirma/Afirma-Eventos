@@ -1,0 +1,55 @@
+/*Style.css
+
+*{ color: #808080; font-weight: bold;}*/
+/*-------TAGS*/
+#container_eventos h1{ font-size: 22px; font-weight: normal; color: #808080}
+#container_eventos h2{ width: 100%; background: #F2F2F2; color: #808080; line-height: 120%; font-size: 110%;}
+#container_eventos ul{ min-height: 80px; height: auto; border-bottom: 1px solid #BFBFBF;}
+#container_eventos li{ display: inline; list-style: none; text-align: left; /*min-width: 100px; */min-height: 30px; font-size: 95%;}
+/*-------IDs*/
+#container_eventos{ width: 100%; min-width: 640px;}
+
+
+/*-------CLASS*/
+.title_event{ color: #DDAA48; font-weight: bold;}
+.title_event span { font-size: 165%;}
+#container_eventos .btns{
+background-color: #F2F2F2 ;
+border: 0 ;
+border-radius: 2px ;
+color: #FFF !important;
+font-size: 10px ;
+font-weight: 700 ;
+padding: 5px 10px 5px ;
+text-transform: uppercase ;
+margin: 2px 0;
+width: auto;
+min-width: 136px;
+/* vertical-align: bottom; */}
+#container_eventos .btns:hover{ background-color: #D0A147 !important;}
+
+ .colum{height: 100px;}
+
+.col_1{width: 48%; min-width: 350px;margin-right: 10px;}
+.col_2{width: 29%; min-width: 160px;}
+.col_3{width: 18%; min-width: 120px;margin-left: 10px;}
+
+.azul{ color: #1F497D !important;}
+
+.dir{ float: right;}
+.esq{ float: left;}
+
+@media(max-width:1035px){
+	#container_eventos ul{ height: 200px; border-bottom: 1px solid #BFBFBF}
+	#container_eventos li{ display: inline; list-style: none; text-align: left; /*min-width: 100px; */min-height: 30px; font-size: 95%;}
+	.col_1{width: 80%; float: left; min-width: 60%; }
+	.col_2{width: 40%; float: left;}
+	.col_3{width: 10%; float: left;}
+}
+@media(max-width:455px){
+	#container_eventos ul{ height: 300px; border-bottom: 1px solid #BFBFBF}
+	#container_eventos li{ display: inline; list-style: none; text-align: left; /*min-width: 100px; */min-height: 30px; font-size: 95%;}
+	.col_1{width: 80%; float: left; min-width: 60%; }
+	.col_2{width: 80%; float: left;}
+	.col_3{width: 10%; float: left;}
+}
